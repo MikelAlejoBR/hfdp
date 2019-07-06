@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  gcc:
+    image: gcc:9.1.0
+    volumes:
+      - ./hfdp/:/home/hfdp
+    working_dir: /home/hfdp
